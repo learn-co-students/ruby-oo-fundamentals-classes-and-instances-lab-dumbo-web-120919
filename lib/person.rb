@@ -1,5 +1,13 @@
 class Person
+attr_reader :name
+
+def adele_goldberg
+    @name = name
 end
 
-adele_goldberg = Person.new
-alan_kay = Person.new
+def alan_kay
+    @name = name
+end
+
+end
+
